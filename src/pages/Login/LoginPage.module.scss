@@ -1,0 +1,13 @@
+.ava {
+    @apply w-[28%] flex justify-center items-center pb-10 bg-[#ffc45f];
+}
+
+.loginDiv {
+    @apply flex flex-col flex-1 items-center justify-center shadow-[-2px_0_16px_rgba(0,0,0,0.25)] pb-[5%] md:pr-[10%];
+}
+
+@media (max-width: 767px) {
+    .ava {
+        @apply hidden;
+    }
+}
